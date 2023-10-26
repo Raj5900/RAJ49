@@ -11,7 +11,7 @@ struct BigInteger {
     struct Node* head;
 };
 
-struct BigInteger initializeList();
+struct BigInteger initialize();
 void insertDigit(struct BigInteger list, int digit);
 void printList(struct BigInteger list);
 struct BigInteger add(struct BigInteger num1, struct BigInteger num2);
